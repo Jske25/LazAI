@@ -137,6 +137,16 @@ def fetch_message_structured(service, message_id: str) -> dict:
         "body": body,  # {"mimeType": "text/plain"|"text/html", "content": "..."}
     }
 
+def get_latest_email_body_text() -> str:
+    """
+    Returns the latest email body text (string).
+    Assumes you already built structured dict like structured["body"]["content"].
+    """
+    service = build_gmail_service()  # or however you build it
+    msg_id = get_most_recent_message_id(service, inbox_only=True)
+    structured = fetch_message_structured(service, msg_id)  # must include body extraction
+    return structured["body"]["content"]
+
 
 if __name__ == "__main__":
     # 1) Authenticate + create Gmail API client
