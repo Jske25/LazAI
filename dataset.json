@@ -1,0 +1,124 @@
+[
+  {
+    "input": "Hi Jack,\nAre you free sometime this week to chat about the project? I can do Tue 2-4pm or Wed morning. Let me know what works.\nThanks,\nA",
+    "output": "INTENT_SCHEDULE_MEETING"
+  },
+  {
+    "input": "Hey,\nCan we set up a quick 15-minute sync tomorrow? I’m open 10:00-11:30am PT.\n",
+    "output": "INTENT_SCHEDULE_MEETING"
+  },
+  {
+    "input": "Would you be available for a meeting next week to go over the requirements? Please share your availability.\n",
+    "output": "INTENT_SCHEDULE_MEETING"
+  },
+  {
+    "input": "Hi,\nCould we hop on a call to discuss the internship offer details? I’m free after 5pm today.\n",
+    "output": "INTENT_SCHEDULE_MEETING"
+  },
+  {
+    "input": "Can we schedule a demo sometime Friday? Morning preferred, but flexible.\n",
+    "output": "INTENT_SCHEDULE_MEETING"
+  },
+  {
+    "input": "Let’s find time to meet. Do you have 30 minutes this afternoon? If not, propose a few times.\n",
+    "output": "INTENT_SCHEDULE_MEETING"
+  },
+  {
+    "input": "I’d love to connect. Are you open for a coffee chat this weekend? Saturday 1pm works for me.\n",
+    "output": "INTENT_SCHEDULE_MEETING"
+  },
+  {
+    "input": "Could you send a few time slots for a call? I’m available Mon 9-12 and Thu 3-5.\n",
+    "output": "INTENT_SCHEDULE_MEETING"
+  },
+  {
+    "input": "We should meet to align on next steps. How does Thursday at 11am PT sound?\n",
+    "output": "INTENT_SCHEDULE_MEETING"
+  },
+  {
+    "input": "Are you able to meet today? If yes, I can jump on Zoom at 4:30pm.\n",
+    "output": "INTENT_SCHEDULE_MEETING"
+  },
+
+  {
+    "input": "Confirming our meeting tomorrow at 2pm PT. Can you share the Zoom link?\n",
+    "output": "REQUEST_SCHEDULED_MEETING"
+  },
+  {
+    "input": "Hey, I need to reschedule our 1:00pm meeting. Can we move it to 3:30pm instead?\n",
+    "output": "REQUEST_SCHEDULED_MEETING"
+  },
+  {
+    "input": "Can you please send the calendar invite for our call on Friday?\n",
+    "output": "REQUEST_SCHEDULED_MEETING"
+  },
+  {
+    "input": "I didn’t receive the invite for the meeting we discussed. Could you add me to the calendar?\n",
+    "output": "REQUEST_SCHEDULED_MEETING"
+  },
+  {
+    "input": "Following up on the interview scheduling: please confirm the time and location for Monday.\n",
+    "output": "REQUEST_SCHEDULED_MEETING"
+  },
+  {
+    "input": "I’m running 10 minutes late for our 9am. Can we start at 9:10?\n",
+    "output": "REQUEST_SCHEDULED_MEETING"
+  },
+  {
+    "input": "Quick reminder: our sync is today at 5pm. Is that still good on your end?\n",
+    "output": "REQUEST_SCHEDULED_MEETING"
+  },
+  {
+    "input": "Can we push our meeting to next week? I’m out sick today.\n",
+    "output": "REQUEST_SCHEDULED_MEETING"
+  },
+  {
+    "input": "Please cancel the 4pm meeting on my calendar.\n",
+    "output": "REQUEST_SCHEDULED_MEETING"
+  },
+  {
+    "input": "Thanks for scheduling. Can you change the meeting to 30 minutes instead of 60?\n",
+    "output": "REQUEST_SCHEDULED_MEETING"
+  },
+
+  {
+    "input": "Hi,\nHere is the report you asked for. Let me know if you have any questions.\n",
+    "output": "OTHER"
+  },
+  {
+    "input": "Your package has shipped and will arrive on Tuesday.\n",
+    "output": "OTHER"
+  },
+  {
+    "input": "Reminder: your statement is ready. Log in to view your monthly billing summary.\n",
+    "output": "OTHER"
+  },
+  {
+    "input": "Thanks for your application. We’re reviewing candidates and will follow up soon.\n",
+    "output": "OTHER"
+  },
+  {
+    "input": "Hey Jack,\nWanted to share an update: we merged the PR and deployed to staging.\n",
+    "output": "OTHER"
+  },
+  {
+    "input": "Can you review this doc and leave comments by EOD? No meeting needed.\n",
+    "output": "OTHER"
+  },
+  {
+    "input": "Weekly newsletter: Top 10 AI stories you missed.\n",
+    "output": "OTHER"
+  },
+  {
+    "input": "I updated the spreadsheet with the latest numbers. Please double-check column D.\n",
+    "output": "OTHER"
+  },
+  {
+    "input": "FYI, the deadline is Friday at 11:59pm. Submit via the portal.\n",
+    "output": "OTHER"
+  },
+  {
+    "input": "Please see the attached invoice for last month.\n",
+    "output": "OTHER"
+  }
+]
