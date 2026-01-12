@@ -9,7 +9,7 @@
   },
   {
     "input": "Would you be available for a meeting next week to go over the requirements? Please share your availability.\n",
-    "output": "INTENT_SCHEDULE_MEETING"
+    "output": "REQUEST_SCHEDULE_MEETING"
   },
   {
     "input": "Hi,\nCould we hop on a call to discuss the internship offer details? I’m free after 5pm today.\n",
